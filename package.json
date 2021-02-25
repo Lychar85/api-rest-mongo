@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Lychar85/api-rest-mongo#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongodb": "^3.6.3",
     "mongoose": "^5.11.18"
   }
 }

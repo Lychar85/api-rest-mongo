@@ -1,0 +1,30 @@
+.Profil{
+    font-size: 90%;
+    height: 800px;
+
+    .Profil-content{
+        margin-top: 150px;
+    }
+
+
+    h3{
+        font-size: 150%;
+    }
+
+    .list-Profil{
+        list-style-type: none;
+        padding: 10px 0px 10px 10px;
+        box-shadow: -5px 0px 2px #d8d6d6;
+        border-radius: 10px;
+        border-right: 1px solid #d8d6d6;
+        border-bottom: 1px solid #d8d6d6;
+
+            li{
+                border-top: 1px solid #adadad;
+            }
+
+    }
+
+
+
+}

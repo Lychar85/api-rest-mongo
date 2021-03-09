@@ -1,0 +1,20 @@
+.Login-page{
+    background: #000000;
+
+    .Login  {
+        background: url("../../assets/login.jpg") no-repeat;
+        height: 800px;
+
+        .container-form-connect{
+            height: 600px;
+            display: flex;
+            align-items: center;
+
+            .form-connect{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+}

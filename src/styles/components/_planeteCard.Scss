@@ -1,0 +1,47 @@
+.Destination {
+
+    .planete-container {
+
+
+
+        a{
+            color: #ffffff;
+        }
+
+
+        .planete {
+            height: 300px;
+            width: 300px;
+            border-radius: 150px;
+            text-align: center;
+            position: relative;
+            
+
+            
+
+            img {
+                border-radius: 150px;
+                -webkit-filter: grayscale(0);
+                filter: grayscale(0);
+                transition: 600ms;
+
+                &:hover {
+                    -webkit-filter: grayscale(100%);
+                    filter: grayscale(100%);
+                    -webkit-transition: 600ms;
+                    -webkit-transform: rotate(-90deg);
+                    transform: rotate(-90deg);
+                    transition: 600ms;
+                }
+            }
+
+            h1 {
+                position: absolute;
+                top: 38%;
+                left: 38%;
+            }
+            
+            
+        }
+    }
+}

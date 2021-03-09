@@ -1,0 +1,14 @@
+.HeaderPlanete {
+    position: relative;
+
+    .container-FormDestination{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+
+
+        .form-FormDestination{
+            display: flex;
+        }
+    }
+}

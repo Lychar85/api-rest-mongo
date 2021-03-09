@@ -1,0 +1,39 @@
+.NavAdmin {
+
+    height: 100%;
+    width: 10%;
+    background: $colors-blue;
+    box-shadow: 4px 0px 0px #afafaf;
+
+    .navAdmin-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 35%;
+
+
+        a {
+            font-size: 120%;
+            margin-left: 40px;
+            width: 100%;
+            color: #ffffff;
+        }
+
+        .NavAdmin-active {
+            color: #e0ca00;
+            position: relative;
+
+            &::before {
+                content: ">";
+                position: absolute;
+                left: -12px;
+            }
+        }
+
+    }
+
+
+
+
+}

@@ -1,0 +1,29 @@
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    background: #182d5aff;
+    align-items: center;
+
+    .navigationLogin {
+
+        .login {
+            border-left: 3px solid #ffffff;
+            padding: 20px 0px 20px 50px;
+            display: flex;
+            justify-content: center;
+
+        } 
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-right: 25px;
+
+        }
+
+    }
+
+
+
+}

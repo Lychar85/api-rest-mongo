@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 700px;
+    transition: 200ms;
+
+    a {
+        color: #ffffff;
+        font-size: 115%;
+        text-decoration: none;
+
+        &:hover {
+            color: #000000;
+            transition: 200ms;
+            text-decoration: none;
+        }
+    }
+
+
+}
